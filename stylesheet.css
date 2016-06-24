@@ -50,7 +50,7 @@ table {
 body {
   font-family: 'Tangerine', serif;
   font-size: 48px;
-  background-color:#EBA02C
+  background-color:#EBA02C;
 }
 
 /*HEADER*/
@@ -65,8 +65,37 @@ h1{
   padding-bottom: 20px;
 }
 
+/*content*/
 section p{
+  margin-bottom: 30px;
   color: #6A22EB
-  padding-bottom: 20px;
   text-align: center;
+}
+/*stories header*/
+div h5{
+  padding-bottom:30px;
+  color: #6A22EB
+}
+
+/*FOOTER*/
+footer small{
+  font-size: 30px;
+  padding-top: 50px;
+  text-align: center;
+  color: #1213AD
+}
+
+/*Stories outline*/
+div{
+  background-color: #EBA02C;
+}
+
+div h5{
+  text-align:center;
+}
+
+div p{
+  padding-bottom::50px;
+  text-align:justify;
+  font-size: 20px;
 }
